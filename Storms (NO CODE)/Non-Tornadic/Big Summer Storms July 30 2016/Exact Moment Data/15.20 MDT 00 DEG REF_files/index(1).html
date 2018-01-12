@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- saved from url=(0145)https://s0.2mdn.net/ads/richmedia/studio/pv2/37423950/20150917095511701/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=Wva442E1Fy&t=1 -->
+<html lang="en" class="wf-roboto-n3-active wf-roboto-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Google Tangram</title>
+
+	<script src="./WebFont(1).js"></script>
+	<link rel="stylesheet" href="./css"><script>
+		WebFont.load({
+			google: {
+				families: ["Roboto:300,700"]
+			}
+		});
+	</script>
+
+	<style type="text/css">
+		html {
+ 			-webkit-font-smoothing: antialiased;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		@media
+		only screen and (-webkit-min-device-pixel-ratio: 1.25),
+		only screen and ( min-device-pixel-ratio: 1.25),
+		only screen and ( min-resolution: 200dpi),
+		only screen and ( min-resolution: 1.25dppx)
+		{
+		   -webkit-font-smoothing: subpixel-antialiased;
+		}
+
+		div {
+			margin: 0;
+			padding: 0;
+			position: absolute;
+		}
+
+		#mainHolder {
+			border: 1px solid #000000;
+			width: 728px;
+			height: 90px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			background: #ffffff;
+			cursor: pointer;
+			overflow: hidden;
+		    -webkit-touch-callout: none;
+		    -webkit-user-select: none;
+		    -khtml-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		}
+
+		#endBG {
+			width: 728px;
+			height: 90px;
+			background: #d94236;
+			opacity: 0;
+		}
+
+		.copyTextStart {
+			left: 43px;
+			opacity: 1;
+			color: #777777;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 300;
+			font-size: 22px;
+			width: 410px;
+		}
+
+		.copyTextEnd {
+			opacity: 0;
+			left: 43px;
+			color: #ffffff;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 300;
+			font-size: 22px;
+			width: 410px;
+		}
+
+		.copyTextCTA {
+			opacity: 0;
+			color: #5383d3;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 700;
+			font-size: 13px;
+			top: 11px;
+  			text-align: center;
+			position: relative;
+		}
+
+		#buttonLabelHolder {
+			left: 441px;
+		    top: 26px;
+		    width: 152px;
+		    height: 40px;
+		}
+
+		#copyA0, #copyB0, #copyC0 {
+			top: 16px;
+		}
+
+		#copyA1, #copyB1, #copyC1 {
+			top: 45px;
+		}
+
+		#copyA2, #copyB2, #copyC2 {
+			top: 30px;
+		}
+
+		#copyA0, #copyA1, #copyA2, #copyB0, #copyB1, #copyB2 {
+			opacity: 0;
+		}
+
+        #clickLayer {
+            width: 728px;
+            height: 90px;
+        }
+        
+        /* replay icon image embedded as base64 text URI */
+        #buttonReplay {
+            left: 0px;
+            top: 0px;
+            width: 32px;
+            height: 32px;
+            background-repeat: no-repeat;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAOVBMVEUAAAD///////////////////////////////////////////////////////////////////////8KOjVvAAAAEnRSTlMAp/oar5bk3cA8BOjBgIJgPTvtUe5tAAAAXElEQVQI12WOWw7AIAgEF1GrrfbB/Q/bDWmjifNDBgIsSJUcslSgU/ZkoUkLlk6jJovKotGM+liE010lqNu1EeAomDGZZJn67qD+l8H2/DcrvlRFClPtwMh8Y+UFVFgCqqTBXkEAAAAASUVORK5CYII=);
+            background-position: center center;
+            opacity: 0;
+            display: none;
+		    -ms-transform-origin: 15.5px 15.5px;
+		    -webkit-transform-origin: 15.5px 15.5px;
+		    transform-origin: 15.5px 15.5px;
+        }        
+        
+	</style>
+<link rel="stylesheet" type="text/css" href="./loadsprites_square_tiles.css"></head>
+
+<body>
+
+	<div id="mainHolder">
+		<div id="dummyDiv"></div>
+        
+        <!-- Attach all icon animation sprites here -->
+		<div id="iconHolder"><div id="squarePart0" class="sprite square0" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 492, 8); background-position: -9px -271px;"></div><div id="squarePart1" class="sprite square1" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 516, 8); background-position: -49px -271px;"></div><div id="squarePart2" class="sprite square2" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 540, 8); background-position: -89px -271px;"></div><div id="squarePart3" class="sprite square3" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 492, 32); background-position: -129px -271px;"></div><div id="squarePart4" class="sprite square4" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 516, 32); background-position: -169px -271px;"></div><div id="squarePart5" class="sprite square5" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 540, 32); background-position: -9px -311px;"></div><div id="squarePart6" class="sprite square6" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 492, 56); background-position: -49px -311px;"></div><div id="squarePart7" class="sprite square7" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 516, 56); background-position: -89px -311px;"></div><div id="squarePart8" class="sprite square8" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 540, 56); background-position: -129px -311px;"></div><div id="squarePart9" class="sprite square9" style="height: 24px; width: 24px; opacity: 1; transform: matrix(1, 0, 0, 1, 492, 32); background-position: -169px -311px;"></div></div>
+
+        <!-- Copy Text Batch 1 -->
+        <div id="copyA0" class="copyTextStart" style="font-size: 21px; opacity: 0;"></div>
+        <div id="copyA1" class="copyTextStart" style="font-size: 21px; opacity: 0;"></div>
+        <div id="copyA2" class="copyTextStart" style="font-size: 21px; opacity: 0;">Want your business to stand out?</div>
+
+        <!-- Copy Text Batch 2 -->
+        <div id="copyB0" class="copyTextStart" style="font-size: 21px; opacity: 1;"></div>
+        <div id="copyB1" class="copyTextStart" style="font-size: 21px; opacity: 1;"></div>
+        <div id="copyB2" class="copyTextStart" style="font-size: 21px; opacity: 1;">Tell customers what makes you unique.</div>
+        
+		<div id="googleLogoColored" class="logoColored" style="opacity: 1;"><img src="./logo_colored.svg"></div>
+
+		<!-- tangram flocking shapes go here -->
+		<div id="shapeHolder" style="transform: matrix(1, 0, 0, 1, 0, 0);"><div id="shape0" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -15, -15);"></div><div id="shape1" class="sprite triangle3" style="transform: matrix(1, 0, 0, 1, -15, -15);"></div><div id="shape2" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, -15, 15);"></div><div id="shape3" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -15, 45);"></div><div id="shape4" class="sprite triangle3" style="transform: matrix(-1, 0, 0, -1, 135, 75);"></div><div id="shape5" class="sprite parallelogram" style="transform: matrix(0, -1, 1, 0, 75, 15);"></div><div id="shape6" class="sprite triangle2" style="transform: matrix(-1, 0, 0, -1, 135, 75);"></div><div id="shape7" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 135, -15);"></div><div id="shape8" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 135, 15);"></div><div id="shape9" class="sprite parallelogram" style="transform: matrix(0, -1, 1, 0, 135, 75);"></div><div id="shape10" class="sprite triangle1" style="transform: matrix(0, 1, -1, 0, 225, -15);"></div><div id="shape11" class="sprite triangle2" style="transform: matrix(0, -1, 1, 0, 165, 45);"></div><div id="shape12" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 225, -15);"></div><div id="shape13" class="sprite triangle1" style="transform: matrix(0, 1, -1, 0, 285, -15);"></div><div id="shape14" class="sprite parallelogram" style="transform: matrix(0, -1, 1, 0, 255, 15);"></div><div id="shape15" class="sprite triangle1" style="transform: matrix(0, 1, -1, 0, 315, 15);"></div><div id="shape16" class="sprite triangle3" style="transform: matrix(-1, 0, 0, -1, 315, 75);"></div><div id="shape17" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 285, 15);"></div><div id="shape18" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 315, -15);"></div><div id="shape19" class="sprite triangle2" style="transform: matrix(0, -1, 1, 0, 315, 75);"></div><div id="shape20" class="sprite triangle3" style="transform: matrix(1, 0, 0, 1, 345, -15);"></div><div id="shape21" class="sprite parallelogram" style="transform: matrix(1, 0, 0, 1, 375, 15);"></div><div id="shape22" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 405, 45);"></div><div id="shape23" class="sprite triangle3" style="transform: matrix(1, 0, 0, 1, 405, 45);"></div><div id="shape24" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 405, 45);"></div><div id="shape25" class="sprite triangle1" style="transform: matrix(-1, 0, 0, -1, 465, 45);"></div><div id="shape26" class="sprite triangle2" style="transform: matrix(0, 1, -1, 0, 525, -15);"></div><div id="shape27" class="sprite triangle3" style="transform: matrix(-1, 0, 0, -1, 585, 45);"></div><div id="shape28" class="sprite triangle1" style="transform: matrix(0, 1, -1, 0, 585, -15);"></div><div id="shape29" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 555, -15);"></div><div id="shape30" class="sprite parallelogram" style="transform: matrix(0, -1, 1, 0, 495, 75);"></div><div id="shape31" class="sprite triangle2" style="transform: matrix(0, -1, 1, 0, 555, 75);"></div><div id="shape32" class="sprite triangle2" style="transform: matrix(-1, 0, 0, -1, 645, 45);"></div><div id="shape33" class="sprite parallelogram" style="transform: matrix(1, 0, 0, 1, 615, 15);"></div><div id="shape34" class="sprite triangle3" style="transform: matrix(0, -1, 1, 0, 645, 105);"></div><div id="shape35" class="sprite triangle1" style="transform: matrix(0, 1, -1, 0, 705, -15);"></div><div id="shape36" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 675, 75);"></div><div id="shape37" class="sprite triangle3" style="transform: matrix(0, 1, -1, 0, 735, -45);"></div><div id="shape38" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 45.9185, -190);"></div><div id="shape39" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -24.688, -190);"></div><div id="shape40" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -48.013, -190);"></div><div id="shape41" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 301.843, 210);"></div><div id="shape42" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -190, -12.8551);"></div><div id="shape43" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -3.93947, 210);"></div><div id="shape44" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 179.757, 210);"></div><div id="shape45" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 848, -42.9502);"></div><div id="shape46" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -190, 66.4402);"></div><div id="shape47" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 215.294, 210);"></div></div>
+
+		<!-- solid background -->
+		<div id="endBG" style="opacity: 1; background-color: rgb(65, 131, 244);"></div>
+
+        <!-- Copy Text Batch 3 -->
+		<div id="copyC0" class="copyTextEnd" style="font-size: 21px; opacity: 1;"></div>
+		<div id="copyC1" class="copyTextEnd" style="font-size: 21px; opacity: 1;"></div>
+		<div id="copyC2" class="copyTextEnd" style="font-size: 21px; opacity: 1;">Create custom ads with AdWords.</div>
+
+        <!-- CTA Button -->
+		<div id="ctaParallelogram" class="sprite ctaPara" style="opacity: 0; top: 20px; left: 442px;"></div>
+		<div id="ctaTriangleLeft" class="sprite ctaTriLeft" style="opacity: 0; top: 20px; left: 441px;"></div>
+		<div id="ctaTriangleRight" class="sprite ctaTriRight" style="opacity: 0; top: 19px; left: 540px;"></div>
+		<div id="ctaRectangle" class="sprite ctaRect" style="opacity: 1;"></div>
+		<div id="buttonLabelHolder">
+			<div id="buttonLabel" class="copyTextCTA" style="font-size: 15px; opacity: 1;">Start Now</div>
+		</div>
+
+		<div id="googleLogoWhite" class="logoWhite" style="opacity: 1;"><img src="./logo_white.svg"></div>
+        
+        <div id="clickLayer"></div>
+        <div id="buttonReplay" style="display: block; opacity: 1;"></div>
+	</div>
+
+	<!-- GSAP -->
+	<script src="./TweenMax.min.js"></script>
+	<!-- Studio Enabler -->
+	<script src="./Enabler_01_82.js"></script>
+<!--
+ * Dynamic Content Enable code for Profile: 1051958
+ *
+ * The following code initializes the following dynamic variables for
+ * development testing and live serving of Fields associated to the above profile
+-->
+
+<!-- DynamicContent Start: HTML5 invocation code. -->
+<script type="text/javascript">
+
+// Dynamic Content variables and sample values
+    Enabler.setProfileId(1051958);
+    var devDynamicContent = {};
+
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed= [{}];
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0]._id = 0;
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Unique_ID = 1;
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Ad_Group_Dimension = 23065310232;
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Ad_Group_Name = "CTPT High";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Message = "price_nocommitment";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Creative_Target = "i1";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Reporting_Label = "300x250_23065310232_ca_price_nocommitment_ggt";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].text_1 = "Think you don\'t have a|marketing budget?";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].text_2 = "Show ads on Google on|any budget, with no long-|term commitments. Really.";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].text_3 = "Try AdWords and get|a $75 ad credit when|you spend $25.";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].fontsize = "";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].CTA_Text = "Get Going Today";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].BG_Color = "#df4432";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].CSS_Name = "loadsprites_lock.css";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].JS_Name = "icon_lock.js";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Start_Time_Text_2 = 5.0;
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Start_Time_Icon_Animation = 1.0;
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Start_Time_Wipe = 9.0;
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Exit_URL = {};
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Exit_URL.Url = "https://www.google.ca/adwords/?channel=gdn-ef&sourceid=awo&subid=";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Sub_ID = "ca-en-gdn-aw-tgm";
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Active = true;
+    devDynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Default = false;
+    Enabler.setDevDynamicContent(devDynamicContent);
+
+</script>
+
+<!--
+ * You may access the variables in the following manner
+ * AFTER the Studio Enabler is initialized.
+ * var Unique_ID = dynamicContent.Google_AdWords_Tangram_Feed__Canada_feed[0].Unique_ID;
+ * Note: be sure to use "dynamicContent", not "devDynamicContent"
+-->
+
+	<script src="./main.js"></script>
+
+
+<script type="text/javascript" src="./icon_square_tiles.js"></script></body></html>

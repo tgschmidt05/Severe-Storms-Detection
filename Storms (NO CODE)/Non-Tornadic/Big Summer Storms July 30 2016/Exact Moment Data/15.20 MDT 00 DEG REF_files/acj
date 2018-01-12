@@ -1,0 +1,15 @@
+OX_275277522({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"https://ox-d.weatherus.servedbyopenx.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "adunits" : [
+      {
+        "auid":"537992405",
+        "chain_revenue":"",
+        "size":"728x90",
+        "chain":[
+        ]
+      }
+    ]
+  }
+});
